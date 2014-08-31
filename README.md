@@ -41,8 +41,7 @@ http://localhost:8080/webpack-dev-server/bundle
 
 #### entry.js
 ```javascript
-require("./style.css");
-document.write(require("./content.js"));
+{{entry.js}}
 ```
 
 #### content.js
