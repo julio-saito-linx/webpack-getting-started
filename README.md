@@ -24,6 +24,8 @@ http://localhost:8080/webpack-dev-server/bundle
 ### What you should be seeing
 ![Screenshot](https://github.com/saitodisse/webpack-getting-started/blob/master/docs/img/Screenshot%20from%202014-08-31%2013:45:08.png)
 
+---
+---
 
 ## The code
 
@@ -39,19 +41,22 @@ http://localhost:8080/webpack-dev-server/bundle
 </html>
 ```
 
-``` javascript
-{{entry.js}}
-```
+---
 
 #### entry.js
 ```javascript
-{{entry.js}}
+require("./style.css");
+document.write(require("./content.js"));
 ```
+
+---
 
 #### content.js
 ```javascript
 module.exports = "It works from content.js.";
 ```
+
+---
 
 #### style.css
 ```css
@@ -59,6 +64,8 @@ body {
     background: yellow;
 }
 ```
+
+---
 
 #### webpack.config.js
 ```js
