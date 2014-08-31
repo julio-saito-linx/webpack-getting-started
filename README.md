@@ -39,6 +39,10 @@ http://localhost:8080/webpack-dev-server/bundle
 </html>
 ```
 
+``` javascript
+{{entry.js}}
+```
+
 #### entry.js
 ```javascript
 {{entry.js}}
