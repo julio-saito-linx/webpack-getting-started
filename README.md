@@ -58,7 +58,7 @@ body {
 ```
 
 #### webpack.config.js
-```json
+```js
 module.exports = {
     entry: "./entry.js",
     output: {
